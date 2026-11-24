@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Co-Shell — presupuesto familiar</title>
+<meta name="description" content="Varias monedas, sin florituras. Funciona sin internet; un presupuesto compartido en todos los teléfonos de la familia.">
+<style>
+:root{--bg:#fff;--ink:#16200c;--muted:#566049;--line:#c9d1bd;--card:#f1ffd6;--prim:#b8ff2e;--onprim:#0e1f00;--edge:#476b00;--acc:#5b1fa8;--disc:#efe7fb}
+@media (prefers-color-scheme:dark){:root{--bg:#0a0f06;--ink:#f1f5ea;--muted:#a9b39c;--line:#44503a;--card:#17210f;--edge:#d9ff8a;--acc:#c27bff;--disc:#2c2140}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header{display:flex;align-items:center;gap:10px;padding:16px 20px;border-bottom:1px solid var(--line);max-width:720px;margin:0 auto}
+header b{font-size:18px}.logo{width:28px;height:28px;border-radius:9px;background:var(--prim);box-shadow:inset 0 0 0 1.5px var(--edge)}
+nav{margin-left:auto;font-size:13px;color:var(--muted)}nav a{color:var(--acc);text-decoration:none;margin-left:8px}nav b{margin-left:8px;font-size:13px}
+main{max-width:720px;margin:0 auto;padding:28px 20px 48px}
+h1{font-size:30px;line-height:1.15;margin:0}.lead{color:var(--muted);margin:10px 0 0}
+.btn{display:flex;align-items:center;justify-content:center;gap:10px;height:56px;border-radius:999px;margin-top:22px;background:var(--prim);color:var(--onprim);box-shadow:inset 0 0 0 1.5px var(--edge);font-weight:700;font-size:17px;text-decoration:none}
+.meta{font-size:12px;color:var(--muted);text-align:center;margin-top:8px}.meta code{font-size:11px;word-break:break-all}
+details{margin-top:6px;font-size:12px;color:var(--muted);text-align:center}
+.card{margin-top:26px;padding:14px 16px;border-radius:20px;background:var(--card);border:1px solid var(--line)}.card p{margin:4px 0 0;color:var(--muted);font-size:14px}
+h2{font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);margin:26px 0 0}
+ol{list-style:none;padding:0;margin:0;counter-reset:s}li{counter-increment:s;display:flex;gap:12px;align-items:flex-start;margin-top:12px}
+li::before{content:counter(s);flex:none;width:26px;height:26px;border-radius:50%;background:var(--disc);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px}
+footer{margin-top:28px;font-size:13px;color:var(--muted)}
+</style>
+</head>
+<body>
+<header><span class="logo"></span><b>Co-Shell</b><nav><a href="../ru/">RU</a> <a href="../en/">EN</a> <b>ES</b></nav></header>
+<main>
+<h1>Un presupuesto para dos</h1>
+<p class="lead">Varias monedas, sin florituras. Funciona sin internet; un presupuesto compartido en todos los teléfonos de la familia.</p>
+<a class="btn" href="https://github.com/winerar/co-shell-releases/releases/download/build-1250/co-shell-1250.apk" download>Descargar · 7,2 MB</a>
+<p class="meta">Versión 26.11.60 · Android 8+ · se actualiza sola</p>
+<details><summary>Suma de comprobación SHA-256</summary><code>b3899adc0a717c06105e3c67823f47bd1e6fb47fe29d607b5eeb29537a33c4ff</code></details>
+<div class="card"><b>Necesitas un código de invitación</b><p>Por ahora la app es solo por invitación: introduce el código al abrirla. Pídeselo a quien te invitó.</p></div>
+<h2>Cómo instalar</h2>
+<ol><li>Toca «Descargar» y abre el archivo.</li><li>Permite instalar desde esta fuente.</li><li>Si Play Protect avisa, elige «Instalar de todos modos».</li></ol>
+<footer>Solo para Android. Tus datos se quedan en tu teléfono.</footer>
+</main>
+</body>
+</html>
